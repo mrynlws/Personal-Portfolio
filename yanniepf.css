@@ -80,6 +80,12 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: hsl(334, 100%, 63%);
+    transition: transform 0.5s; /*zoom in speed*/
+}
+
+.header-text h1 span:hover{
+    color: hsl(334, 100%, 63%);
+    transform: scale(1.1); /*zoom in*/
 }
 
 /*---------------About---------------*/
@@ -101,6 +107,13 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    transition: transform 0.5s; /*zoom in speed*/
+}
+
+.about-col-1 img:hover{
+    width: 100%;
+    border-radius: 15px;
+    transform: scale(1.1); /*zoom in*/
 }
 
 .about-col-2{
