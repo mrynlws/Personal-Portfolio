@@ -124,6 +124,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: hsl(334, 100%, 74%);
+    font-family: 'Patua One', cursive;
 }
 
 p1{
@@ -138,6 +139,7 @@ p1{
     text-decoration: none;
     border-radius: 5px;
     flex-direction: row;
+    transition: background-color 0.5s;
 }
 
 .download-btn:hover{
@@ -199,11 +201,17 @@ p1{
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: blue;
+    background: dodgerblue;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.layer a:hover{
+    background: royalblue;
+    transform: scale(1.1);
 }
 
 .project:hover img{
@@ -223,7 +231,7 @@ p1{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: background 0.5s;
     background: hsl(334, 100%, 74%);
     font-weight: bold;
@@ -311,6 +319,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(./images/bg_smallscreen.jpg);
+        
     }
 
     .header-text{
