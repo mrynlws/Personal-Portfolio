@@ -1,167 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yannie's Portfolio</title>
-        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="yanniepf.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!---Scroll Animation--->
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yannie's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="yanniepf.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!---Scroll Animation--->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
 
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                    </ul> 
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
-                <div class="header-text">
-                    <p>Computer Science Student</p>
-                    <h1>Hi, I'm <span>Yannie</span><br>from Philippines</h1>
-                </div>
-            </div>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Computer Science Student</p>
+          <h1>Hi, I'm <span>Yannie</span><br />from Philippines</h1>
         </div>
+      </div>
+    </div>
 
-        <!---------------About--------------->
-        <div id="about">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="./images/aboutme.jpg">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1><br>
-                        <p1> Hello! My name is Marianne Louise Buama, but you can call me Yannie. 
-                            I'm a 4th-year student at FEU Alabang, 
-                            currently pursuing a Bachelor's Degree in Computer Science with specialization in Software Engineering. 
-                            I am an Events Committee Associate of Google Developer Student Clubs FEU Alabang, 
-                            where I previously held the position of Vice President External. 
-                            Additionally, I am a member of Association for Computing Machinery 
-                            at my university and previously served as an Auditor.
-                            I take great pride in my academic achievements and I am proud to consistently 
-                            be awarded as a top-performing student. Because of this, I am a recipient of the President's Scholarship 
-                            and have been inducted into the Honor Society.
-                        </p1><br><br><br><br>
-                        <a href="resume_buama.pdf" class="download-btn" download="Yannie Buama Resume">Resume <i class="fa fa-download"></i></a>
-                    </div>                   
-                </div>
-            </div>
+    <!---------------About--------------->
+    <div id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/aboutme.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p1>
+              Hello! My name is Marianne Louise Buama, though I prefer to be
+              called Yannie. I hold a Bachelor’s Degree in Computer Science with
+              a specialization in Software Engineering from FEU Alabang. I
+              graduated Magna Cum Laude and received a Leadership award.
+              Previously, I served as an Events Committee Associate at Google
+              Developer Student Clubs FEU Alabang, where I held the position of
+              Vice President External. Additionally, I was a member of the
+              Association for Computing Machinery at my university, where I
+              previously served as an Auditor. I take considerable pride in my
+              academic accomplishments and am honored to have been consistently
+              recognized as a top-performing student. As a result of my
+              achievements before entering college, I was awarded the
+              President's Scholarship and inducted into the Tertiary Honor
+              Society. I was also a scholar under the Muntinlupa Scholarship
+              Division.
+            </p1>
+            <br /><br /><br /><br />
+            <a
+              href="BuamaMarianne_Resume.pdf"
+              class="download-btn"
+              download="Yannie Buama Resume"
+              >Resume <i class="fa fa-download"></i>
+            </a>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <!---------------Projects--------------->
-        <div id="projects">
-            <div class="container" data-aos="fade-up">
-                <h1 class="sub-title">Projects</h1>
-                <div class="project-list">
-                    <div class="project">
-                        <img src="./images/ISAFE_icon.png">
-                        <div class="layer">
-                            <h3>ISAFE</h3><br>
-                            <p>An application that utilizes machine learning and augmented reality to predict the flood susceptibility of the barangays in Muntinlupa City and provide a 3D visualization map.</p>
-                            <a href="https://drive.google.com/file/d/11e0afdQGByr-6TMVN8rYAAlYUCkhzzFa/view?usp=sharing" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div> 
-                    </div>
-                    
-                    <div class="project">
-                        <img src="./images/CompElec-icon.png"><br><br>
-                        <div class="layer">
-                            <h3>CompElec</h3><br>
-                            <p>CompElec is a voting system to be used by the Association for Computing Machinery - FEU
-                                Alabang Student Chapter to speed up the process of voting in organizational elections.</p>
-                            <a href="https://drive.google.com/file/d/1006kS7rby8uToH0ZPlTRLvFGXqNLNM9d/view?usp=sharing" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="project">
-                        <img src="./images/MyMotchi-icon.png">
-                        <div class="layer">
-                            <h3>My Motchi</h3><br>
-                            <p>A virtual pet game for kids with the goal of teaching them to balance their playtime and responsibilities.</p>
-                            <a href="https://drive.google.com/file/d/1NKUES3PoOGlrEpHBwtcFfwtiPHmMu70Q/view?usp=sharing" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <a href="https://drive.google.com/drive/folders/1cftYfp4WjhyBv-MX6dsqgrkvjcE1jMA1?usp=share_link" target="_blank" class="btn">See more</a>
-            </div>   
-        </div> 
-
-        <!---------------Contact--------------->
-        <div id="contact">
-            <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>yanniebuama07@gmail.com</p>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/mrynlws" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/mrynlws" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.facebook.com/mariannelouise.buama" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/yannielovesart" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>   
-                    </div>
-                    <div class="contact-right">
-                        <form name="submit-to-google-sheet">
-                            <input type="text" name="Name" placeholder="Enter your name..." required>
-                            <input type="email" name="Email" placeholder="Enter your email..." required>
-                            <textarea name="Message" rows="6" placeholder="Enter your message..."></textarea>
-                            <button type="submit" class="btn">Submit</button>
-                        </form>
-                        <span id="msg"></span>
-                    </div>
-                </div>
+    <!---------------Projects--------------->
+    <div id="projects">
+      <div class="container" data-aos="fade-up">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+          <div class="project">
+            <img src="./images/ISAFE.png" />
+            <div class="layer">
+              <h3>ISAFE</h3>
+              <br />
+              <p>
+                An application that utilizes machine learning and augmented
+                reality to predict the flood susceptibility of the barangays in
+                Muntinlupa City and provide a 3D visualization map.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/11e0afdQGByr-6TMVN8rYAAlYUCkhzzFa/view?usp=sharing"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
             </div>
-            <div class="copyright">
-                <p>Copyright © 2023 by Yannie Buama</p>
+          </div>
+
+          <div class="project">
+            <img src="./images/CompElec.png" /><br /><br />
+            <div class="layer">
+              <h3>CompElec</h3>
+              <br />
+              <p>
+                An online voting system website to be used by the Association
+                for Computing Machinery - FEU Alabang Student Chapter to speed
+                up the process of voting in organizational elections.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1006kS7rby8uToH0ZPlTRLvFGXqNLNM9d/view?usp=sharing"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
             </div>
+          </div>
+
+          <div class="project">
+            <img src="./images/MyMotchi.png" />
+            <div class="layer">
+              <h3>My Motchi</h3>
+              <br />
+              <p>
+                A virtual pet game for kids with the goal of teaching them to
+                balance their playtime and responsibilities.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1NKUES3PoOGlrEpHBwtcFfwtiPHmMu70Q/view?usp=sharing"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="./images/Calimlim.png" />
+            <div class="layer">
+              <h3>Calimlim Dental Clinic Website</h3>
+              <br />
+              <p>
+                A dental website that integrates appointment booking and
+                monitoring, patient information recording, and inventory
+                management for enhanced convenience.
+              </p>
+              <a href="https://calimlimv5.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="./images/TagprosNRP.png" />
+            <div class="layer">
+              <h3>Tagpros NRP website</h3>
+              <br />
+              <p>
+                A website providing quality, high-dosage tutoring to students in
+                public schools across the Philippines, aiming to combat the
+                learning loss brought by the pandemic.
+              </p>
+              <a href="https://nrp.tagpros.us/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="./images/TagprosProprietary2.png" />
+            <div class="layer">
+              <h3>Tagpros Proprietary Website</h3>
+              <br />
+              <p>
+                A learning platform where educators create online courses based
+                on their expertise, allowing students to enroll and enrich their
+                knowledge in a variety of subjects.
+              </p>
+              <a href="https://www.tagpros.us/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
         </div>
+        <a
+          href="https://drive.google.com/drive/folders/1cftYfp4WjhyBv-MX6dsqgrkvjcE1jMA1?usp=share_link"
+          target="_blank"
+          class="btn"
+          >See more
+        </a>
+      </div>
+    </div>
 
-        <script>
-            var sidemenu = document.getElementById("sidemenu");
+    <!---------------Contact--------------->
+    <div id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>yanniebuama07@gmail.com
+            </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/mrynlws" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/mrynlws" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/mariannelouise.buama"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/yannielovesart"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter your name..."
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter your email..."
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter your message..."
+              ></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023 by Yannie Buama</p>
+      </div>
+    </div>
 
-            function openmenu(){
-                sidemenu.style.right = "0";
-            }
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
 
-            function closemenu(){
-                sidemenu.style.right = "-200px";
-            }
-        </script>
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
 
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyrD2R6gkJYoqZ0gDs0IlIf0rjmQBOTqydzAl4fIsOWVFMAQc3XkL3kCIYfHA8ldF5hdw/exec'
-            const form = document.forms['submit-to-google-sheet']
-            const msg = document.getElementById("msg")
-        
-            form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully!"
-                    setTimeout(function(){
-                        msg.innerHTML = ""
-                    },5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-            })
-        </script>
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
 
-        <!---Scroll Animation--->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-            duration: 3000,
-            once: true,
-          });
-        </script>
-    </body>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyrD2R6gkJYoqZ0gDs0IlIf0rjmQBOTqydzAl4fIsOWVFMAQc3XkL3kCIYfHA8ldF5hdw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!---Scroll Animation--->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+  </body>
 </html>
